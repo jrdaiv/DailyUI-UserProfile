@@ -39,7 +39,7 @@ export default function ProfileScreen() {
         <View className="flex-1">
           {/* <Text className="text-lg font-bold text-white">Posts</Text> */}
           <View className="mb-16 mt-8">
-            <Text className="mx-auto mb-3 text-xl font-bold text-white/50">User Posts</Text>
+            <Text className="mx-auto mb-3 text-xl font-bold text-white/70">User Posts</Text>
             {user.posts.map((post) => (
               <>
                 <View key={post.id} className="m-1 border-t-2 border-blue-500/50 p-4">
